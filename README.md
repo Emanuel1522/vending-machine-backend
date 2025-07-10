@@ -50,6 +50,7 @@ GET /venta/{id}/liberar
 ## 📦 Estructura del proyecto
 
 📁 vending-machine
+
 ├── controller/
 │   └── VentaController.java
 ├── model/
@@ -82,6 +83,7 @@ GET /venta/{id}/liberar
 
 ## 📬 Autor
 Desarrollado por Emanuel Rojas Ramirez
-[🔗 Portafolio]([https://tu-portafolio.com](https://emanuel-rojas-page.vercel.app)) | [LinkedIn]([https://linkedin.com/in/tuusuario](https://www.linkedin.com/in/emanuel-rojas-ramirez-0b187835a/))
+
+[🔗 Portafolio](https://emanuel-rojas-page.vercel.app) | [LinkedIn](https://www.linkedin.com/in/emanuel-rojas-ramirez-0b187835a/)
 
 ---
