@@ -20,12 +20,12 @@ Este proyecto simula el backend de una **máquina expendedora** usando Java con 
 Registra una venta nueva en estado `PENDIENTE` y genera un código QR simulado para el pago.
 
 `POST /venta`  
-```json```
+```json
 {
   "producto": "Galletas",
   "precio": 5.00
 }
-
+```
 ### 🔄 Obtener estado de la venta
 Consulta el estado actual (PENDIENTE, PAGADO o EXPIRADO). Si han pasado más de 3 minutos desde la creación y no se ha pagado, se marca automáticamente como EXPIRADO.
 GET /venta/{id}/estado
@@ -49,7 +49,7 @@ GET /venta/{id}/liberar
 
 ## 📦 Estructura del proyecto
 
-```text```
+```
 📁 vending-machine
 ├── controller/
 │   └── VentaController.java
@@ -62,7 +62,7 @@ GET /venta/{id}/liberar
 ├── helper/
 │   └── EstadoVenta.java
 └── VendingMachineApplication.java
-
+```
 ---
 
 ## 📍 Simulación del flujo completo
