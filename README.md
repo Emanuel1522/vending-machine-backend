@@ -28,15 +28,15 @@ Registra una venta nueva en estado `PENDIENTE` y genera un código QR simulado p
 ```
 ### 🔄 Obtener estado de la venta
 Consulta el estado actual (PENDIENTE, PAGADO o EXPIRADO). Si han pasado más de 3 minutos desde la creación y no se ha pagado, se marca automáticamente como EXPIRADO.
-GET /venta/{id}/estado
+```GET /venta/{id}/estado```
 
 ### 💰 Verificar pago
 Cambia el estado de la venta a PAGADO. En un sistema real, esta operación vendría desde la confirmación del proveedor de pagos (como Izipay).
-PUT /venta/{id}/verificar-pago
+```PUT /venta/{id}/verificar-pago```
 
 ### 🚪 Liberar producto
 Si la venta ya fue pagada, ejecuta una simulación de liberación de producto (a través de impresión por consola).
-GET /venta/{id}/liberar
+```GET /venta/{id}/liberar```
 
 ---
 
