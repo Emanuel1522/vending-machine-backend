@@ -49,8 +49,8 @@ GET /venta/{id}/liberar
 
 ## 📦 Estructura del proyecto
 
+```text```
 📁 vending-machine
-
 ├── controller/
 │   └── VentaController.java
 ├── model/
